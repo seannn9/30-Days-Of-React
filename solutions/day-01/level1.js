@@ -53,3 +53,17 @@ console.log(filtered)
 console.log(filtered.sort())
 // 16
 console.log(filtered.reverse())
+// 17
+console.log(filtered.slice(0, 3))
+// 18
+console.log(filtered.slice(1, length-1))
+// 19
+console.log(filtered.slice(1, 3))
+// 20
+filtered.shift()
+console.log(filtered)
+// 21
+filtered.splice(1,3)
+// 22
+filtered.pop()
+console.log(filtered)
